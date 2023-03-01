@@ -2,7 +2,7 @@
 const generatePasswordButton = document.querySelector("#generate-password");
 const generatedPasswordElement = document.querySelector("#generated-password");
 
-// Novas funcionalidades
+// Novas Funcionalidades
 const openCloseGeneratorButton = document.querySelector(
   "#open-generate-password"
 );
@@ -39,7 +39,7 @@ const generatePassword = (
 ) => {
   let password = "";
 
-  //   Segunda versão
+  //   Eventos
   const passwordLength = +lengthInput.value;
 
   const generators = [];
